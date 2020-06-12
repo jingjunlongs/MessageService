@@ -31,4 +31,3 @@ spec:
             host: message
             port:
                number: 8080
-               
