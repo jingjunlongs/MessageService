@@ -11,7 +11,7 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 @RequestMapping("/message")
-public class MessageService {
+public class MessageController {
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
 
 	@GetMapping(path = { "/getError" })
